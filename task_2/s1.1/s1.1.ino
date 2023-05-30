@@ -28,6 +28,8 @@ void commandCollback(std_msgs::UInt8 value) {
     }
 }
 
+// для публикации команд используем led_commandor пакет
+// принимаем команды из топика /command
 ros::Subscriber<std_msgs::UInt8> command_sub("/command", commandCollback);
 
 
