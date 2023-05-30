@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv) 
 {
-    ros::init(argc, argv, "led_commandor");
+    ros::init(argc, argv, "lcd_commandor");
     
     ros::NodeHandle node;
     system("stty raw");
